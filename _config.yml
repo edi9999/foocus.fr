@@ -3,11 +3,10 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://fongandrew.github.io/hydeout
-baseurl:          # the optional subpath of your site, e.g. "/blog"
+title:            Foocus
+description:      ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
@@ -16,10 +15,6 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 author:
   name:           'Andrew Fong'
   url:            https://twitter.com/fongandrewc
-
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
@@ -34,4 +29,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/edi9999/foocus.fr
