@@ -1,0 +1,7 @@
+deploy:
+  summary: Deploy site
+  command: bundle exec jekyll build && rsync --checksum --progress --update --recursive --partial --delete _site/ beets:/var/www/foocus
+
+dev:
+  summary: Development server
+  command: bundle exec jekyll serve

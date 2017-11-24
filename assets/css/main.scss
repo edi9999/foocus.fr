@@ -1,6 +1,46 @@
 ---
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
+# Jekyll needs front matter for SCSS files
 ---
 
+$sidebar-bg-color: #005782;
+$link-color: #FF9900;
 @import "hydeout";
+
+body {
+  background-color: $sidebar-bg-color;
+  background-image: linear-gradient(
+    to bottom,
+    lighten($sidebar-bg-color, 50%),
+    darken($sidebar-bg-color, 7%));
+}
+
+img#logo {
+    margin: auto;
+    @media (min-width: 49rem) {
+        margin-top: 4rem;
+    }
+}
+
+#sidebar {
+    height: 100%;
+}
+
+#sidebar {
+    @media (min-width: 49rem)  {
+        position: relative;
+    }
+}
+
+#sidebar-nav-links {
+    @media (min-width: 49rem) {
+        position: absolute;
+        bottom: 8rem;
+    }
+}
+
+#copyright {
+    @media (min-width: 49rem) {
+        position: absolute;
+        bottom: 1rem;
+    }
+}

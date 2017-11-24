@@ -12,12 +12,6 @@
     </a>
   {% endif %}
 
-  <a id="subscribe-link"
-     class="icon" title="Subscribe" aria-label="Subscribe"
-     href="{{ site.baseurl }}/feed.xml">
-    {% include svg/feed.svg %}
-  </a>
-
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
   {% endcomment %}
@@ -43,7 +37,7 @@
   {% if search_page %}
     <a id="search-link"
        class="icon{% if page.url == '/search' %} active{% endif %}"
-       title="Search" aria-label="Search"
+       title="Search" aria-label="Tags"
        href="{{ site.baseurl }}{{ search_page.url }}">
       {% include svg/search.svg %}
     </a>
