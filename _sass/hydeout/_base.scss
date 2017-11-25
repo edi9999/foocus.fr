@@ -31,6 +31,9 @@ body {
 
 main, article, section { display: block; }
 
+.content a {
+    text-decoration: underline;
+}
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: $link-color;

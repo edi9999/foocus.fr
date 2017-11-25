@@ -5,7 +5,8 @@
 @import "hydeout";
 
 $sidebar-bg-color: #005782;
-$link-color: #FF9900;
+$link-color: #005782;
+$body-bg: #005782;
 
 body {
   background-color: $sidebar-bg-color;
@@ -24,6 +25,8 @@ img#logo {
 
 #sidebar {
     height: 100%;
+    background-color: white;
+    color: #005782;
 }
 
 #sidebar {
@@ -35,7 +38,7 @@ img#logo {
 #sidebar-nav-links {
     @media (min-width: 49rem) {
         position: absolute;
-        bottom: 8rem;
+        bottom: 50%;
     }
 }
 
