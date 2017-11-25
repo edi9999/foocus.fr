@@ -6,8 +6,8 @@ highlighter:      rouge
 title:            Foocus
 description:      ""
 
-baseurl: "/foocus.fr" # the subpath of your site, e.g. /blog
-url: "https://github.com/edi9999" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://foocus.fr" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed
