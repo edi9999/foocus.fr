@@ -2,9 +2,10 @@
 layout: page
 title: Contact
 sidebar_link: true
-order: 4
+order: 2
 ---
 
-<p class="message">
-	Hello ! Contacte nous !
-</p>
+# Notre projet vous intéresse? 
+
+N'hésitez pas à nous [contacter](mailto:franck.dagostini@sciencespo.fr).
+
