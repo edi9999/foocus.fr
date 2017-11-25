@@ -5,6 +5,8 @@ sidebar_link: true
 order: 1
 ---
 
-<p class="message">
-	Hello ! Contacte nous !
-</p>
+# Notre projet vous intéresse? 
+
+N'hésitez pas à nous [contacter](mailto:franck.dagostini@sciencespo.fr).
+
+
